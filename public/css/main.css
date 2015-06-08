@@ -1,0 +1,520 @@
+*{
+    border:none;
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style-type:none;
+}
+body{
+    background-color:#f8f8f8;
+    color:#333333;
+    font-family:"Helvetica neue",Helvetica,Verdana,Sans-serif;
+    font-size:14px;
+    line-height:1;
+}
+a{
+    color:#1958bd;
+    font-size:13px;
+}
+b{
+    font-size:13px;
+    font-weight:600;
+    line-height:1.2;
+}
+/** COMMON CLASSES **/
+.clear-float{clear:both;}
+.marginTop-0{margin-top:0 !important;padding-top:4px !important;}
+.underline{text-decoration:underline;}
+.lightGrey{color:#777777;}
+/** HEADER **/
+header{
+    margin:0 auto;
+    margin-top:-170px;
+    padding-top:34px;
+    width:1050px;
+}
+.header-column-oneThird{
+    float:left;
+    width:317px;
+}
+.header-column-twoThirds{
+    float:left;
+    width:402px;
+}
+/** HEADER IMAGE CAROUSEL **/
+#imageCarousel-container{
+    background-color:#ffffff;
+    border:1px solid #cccccc;
+    border-radius:3px;
+    float:left;
+    height:300px;
+    text-align:center;
+    vertical-align:middle;
+    width:100%;
+}
+#imageCarousel-featuredSlide{
+    float:left;
+    margin:12px 0px 0px 50px;
+}
+#imageCarousel-zoomText{
+    color:#808080;
+    float:left;
+    font-size:10px;
+    padding:10px 0px 10px;
+    text-align:center;
+    width:300px;
+}
+#imageCarousel-slides-container{
+    float:left;
+    padding:0px 0px 12px 16px;
+}
+#imageCarousel-slides-arrowLeft{
+    background-image:url('../img/ebayLive-arrowLeft-inactive.png');
+    float:left;
+    height:12px;
+    margin:31px 10px 0px 12px;
+    width:8px;
+}
+.imageCarousel-slide-ico{
+    background-color:#ffffff;
+    border:0px solid #cccccc;
+    border-radius:3px;
+    float:left;
+    height:74px;
+    margin-left:-1px;
+    width:74px;
+}
+.imageCarousel-slide-ico:hover{
+    border:1px solid #999999;
+}
+#imageCarousel-slides-arrowRight{
+    background-image:url('../img/ebayLive-arrowRight-inactive.png');
+    float:left;
+    height:12px;
+    margin:31px 12px 0px 10px;
+    width:8px;
+}
+/** HEADER BORDERS **/
+.header-fullWidth-border-solid{
+    background-color:#cccccc;
+    float:left;
+    height:1px;
+    width:100%;
+}
+.borderDashed-bottom{
+    border-bottom:1px dashed #448600;
+    padding-bottom:4px !important;
+}
+.borderDashed-top{
+    border-top:1px dashed #448600;
+    margin-top:8px !important;
+    padding-top:4px !important;
+}
+/** HAVE ONE ??? **/
+#haveOne-container{
+    border-top:1px dotted #cccccc;
+    float:left;
+    padding:15px 0px 15px 46px;
+    width:276px;
+}
+#haveOne-dollarSign{
+    color:#8ab300;
+    float:left;
+    font-size:16px;
+    font-weight:700;
+    margin-top:8px;
+    padding-right:5px;
+}
+#haveOne-sellNow{
+    color:#0654ba;
+    background:-webkit-gradient(linear,left top,left bottom,from(#fefefe),to(#f8f8f8));
+    border:1px solid #ddd;
+    border-radius:3px;
+    font-weight:700;
+    margin-left:2px;
+    padding:7px 17px 7px 17px;
+
+}
+/** BEGIN HEADER COLUMN TWO **/
+/** LISTING DETAILS **/
+.listingDetails-app-container{
+    float:left;
+    width:100%;
+    padding:0px 12px 0px 12px;
+}
+.listingDetails-app-col1{
+    float:left;
+    padding-top:12px;
+    text-align:right;
+    width:94px;
+}
+.listingDetails-app-col2{
+    float:left;
+    margin-left:12px;
+    padding-top:12px;
+    width:187px;
+
+}
+.listingDetails-smallText{
+    font-size:10px;
+}
+.listingDetails-largeText{
+    font-size:15px;
+    font-weight:700;
+}#listingDetails-bidding-container{
+    background-color:#e2e2e2;
+    border:1px solid #e2e2e2;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    float:left;
+    margin:12px 0px 0px 12px;
+    padding:0px 12px 12px 12px;
+ }
+ .listingDetails-bidding-col1{
+     float:left;
+     padding-top:12px;
+     text-align:right;
+     width:82px;
+ }
+.listingDetails-bidding-col2{
+    float:left;
+    padding:12px 0px 0px 12px;
+    width:100px;
+}
+.listingDetails-bidding-col3{
+    float:left;
+    padding-top:12px;
+}
+.bidding-col3-hidden{
+    width:270px;
+}
+#listingDetails-bidding-bidAmount{
+    border:1px solid #999999;
+    float:left;
+    height:25px;
+    width:108px;
+}
+#listingDetails-bidding-placeBid{
+    background:-webkit-gradient(linear,left top,left bottom,from(#0079bc),to(#00509d));
+    border:1px solid #00519e;
+    border-radius:3px;
+    color:white;
+    float:left;
+    font-size:16px;
+    font-weight:600;
+    height:30px;
+    margin-left:14px;
+    width:130px;
+}
+#listingDetails-highlightedFeatures-container{
+    border:1px solid #e2e2e2;
+    float:left;
+    margin-left:12px;
+}
+.listingDetails-oneThird{
+    background-color:#f6f6f6;
+    float:left;
+    height:12px;
+    padding:10px 4px 15px 4px;
+    text-align:center;
+    width:121px;
+    vertical-align:middle;
+}
+#listingDetails-oneThird-middle{
+    border-left:1px solid #e2e2e2;
+    border-right:1px solid #e2e2e2;
+    height:20px;
+    width:120px;
+}
+#listingDetails-oneThird-first{
+    padding-top:16px;
+}
+.listingDetails-oneThird-redText{
+    color:#de2236;
+    font-size:16px;
+    font-weight:700;
+}
+#listingDetails-fullWidth-container{
+    background-color:white;
+    border-left:1px solid #e2e2e2;
+    border-right:1px solid #e2e2e2;
+    border-bottom:1px solid #e2e2e2;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    float:left;
+    font-size:13px;
+    height:45px;
+    margin-left:12px;
+    padding:12px 12px 12px 10px;
+    width:366px;
+    vertical-align:middle;
+}
+#listingDetails-fullWidth-paypalIco{
+    background:url('../img/listingDetails-fullWidth-paypalIco-bg.png')no-repeat;
+    float:left;
+    height:39px;
+    margin-top:-2px;
+    padding-right:8px;
+    width:82px;
+}
+#listingDetails-inline-paypalIco{
+    background:url('../img/listingDetails-inline-paypalIco-bg.png')no-repeat;
+    float:left;
+    height:14px;
+    width:51px;
+}
+.listingDetails-inline-paypapOr{
+    float:left;
+    padding:0px 4px 0px 4px;
+}
+#listingDetails-inline-paypapCreditIco{
+    background:url('../img/listingDetails-inline-paypapCreditIco-bg.png')no-repeat;
+    float:left;
+    height:16px;
+    width:104px;
+}
+#listingDetails-inline-ebayIco{
+    background:url('../img/listingDetails-inline-ebayIco-bg.png')no-repeat;
+    float:left;
+    height:20px;
+    padding-right:8px;
+    width:226px;
+}
+/** BEGIN COLUMN THREE **/
+#sellerInformation-container{
+    background:white;
+    border:1px solid #cccccc;
+    border-radius:3px;
+    float:left;
+    margin-left:12px;
+    padding:12px;
+    width:296px;
+}
+#sellerInformation-largeText{
+    font-size:16px;
+    font-weight:700;
+}
+#sellerInformation-smallText{
+    float:left;
+    font-size:12px;
+    padding-top:7px;
+}
+#sellerInformation-ratingIco{
+    height:14px;
+    padding-top:4px;
+    width:14px;
+}
+#sellerInformation-border-dotted{
+    border-bottom:2px dotted #999999;
+    float:left;
+    height:2px;
+    padding-top:8px;
+    width:294px;
+}
+#sellerInformation-followIco{
+    background-color:white;
+    border-top:1px solid #dddddd;
+    border-right:1px solid #dddddd;
+    border-left:1px solid #dddddd;
+    border-bottom:3px solid #cbcbcb;
+    border-radius:3px;
+    float:left;
+    font-size:16px;
+    font-weight:700;
+    padding:3px 4px 3px 3px;
+}
+#sellerInformation-followIco-image{
+    background:url('../img/sellerInformation-followIco-bg.png')no-repeat;
+    float:left;
+    height:9px;
+    width:9px;
+}
+.sellerInformation-col1{
+    float:left;
+    padding-top:10px;
+}
+.sellerInformation-col2{
+    color:#448600;
+    float:left;
+    font-size:12px;
+    padding:13px 0px 0px 6px;
+}
+/** BEGIN EBAY LISTING **/
+main{
+    margin:0 auto;
+    padding-bottom:30px;
+    width:1050px;
+}
+#ebayListing-tab-container{
+    border-bottom:1px solid #dddddd;
+    float:left;
+    width:1052px;
+}
+#ebayListing-tab-description{
+    background:white;
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid white;
+    border-right:1px solid #dddddd;
+    border-left:1px solid #dddddd;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    float:left;
+    height:14px;
+    margin-bottom:-2px;
+    padding:13px 21px 13px 21px;
+}
+#ebayListing-tab-shippingPayments{
+    background:#f9f9f9;
+    border-top:1px solid #dddddd;
+    border-right:1px solid #dddddd;
+    border-top-right-radius:3px;
+    float:left;
+    height:14px;
+    margin-left:4px;
+    padding:13px 21px 13px 21px;
+}
+#ebayListing-content{
+    background-color:white;
+    border-bottom:1px solid #dddddd;
+    border-right:1px solid #dddddd;
+    border-left:1px solid #dddddd;
+    float:left;
+    min-height:120px;
+    padding-bottom:90px;
+    width:1050px;
+}
+/** BEGIN ITEM SPECIFICS **/
+#itemSpecifics-container{
+    border:1px solid #cccccc;
+    float:left;
+    font-size:13px;
+    margin:12px 0px 0px 30px;
+    padding:12px 21px 12px 21px;
+    width:946px;
+
+}
+#itemSpecifics-heading{
+    font-size:16px;
+    font-weight:600;
+    padding-bottom:16px;
+}
+#itemSpecifics-smallText a{
+    font-size:10px;
+}
+#itemSpecifics-bold{
+    font-size:11px;
+    font-weight:600;
+    letter-spacing:1px;
+}
+.itemSpecifics-oneHalf{
+    float:left;
+    width:50%;
+}
+.itemSpecifics-col1{
+    float:left;
+    width:88px;
+}
+.itemSpecifics-col2{
+    float:left;
+    width:330px;
+}
+/** BEGIN CUSTOM CONTENT**/
+#customHTML-container{
+    float:left;
+    margin:12px 0px 0px 30px;
+    width:990px;
+}
+#customHTML-iframe{
+    float:left;
+    overflow-y:auto;
+    width:990px;
+}
+/** BEGIN ASK Q&A **/
+#questionAnswer-container{
+    border:1px solid #cccccc;
+    float:left;
+    margin:14px 0px 0px 30px;
+    width:990px;
+}
+#questionAnswer-heading{
+    padding:4px 12px;
+}
+#questionAnswer-title{
+    background:linear-gradient(#f6f6f5, #cfcfcf);
+    border-bottom:1px solid #cccccc;
+    float:left;
+    height:27px;
+    width:990px;
+}
+#questionAnswer-404{
+    float:left;
+    height:14px;
+    padding:4px 12px;
+    width:990px;
+}
+#questionAnswer-askQuestion{
+    background:linear-gradient(#feffff, #e8e8e8);
+    border-top:1px solid #cccccc;
+    float:left;
+    height:15px;
+    padding:8px 12px;
+    width:966px;
+}
+/**    Custom Styles   **/
+/************************/
+#styles-container{
+    float:left;
+    margin-top:120px;
+    width:198px;
+    z-index:2;
+}
+#styles-content{
+    float:left;
+    display:none;
+    background:#494949;
+    width:128px;
+    height:130px;
+    padding:10px;
+}
+#styles-text{
+    float:left;
+    width:124px;
+}
+#color-options-title{
+    font-size:17px;
+    line-height:25px;
+    border-bottom:2px dotted #ecece1;
+    margin-top:16px;
+    color:#ecece1;
+    font-weight:bold;
+}
+#color-options-container{
+    float:left;
+    height:62px;
+    width:128px;
+    margin-top:26px;
+}
+.color-options{
+    float:left;
+    height:29px;
+    width:29px;
+}
+.color-options:hover{
+    cursor:pointer;
+}
+/**    Color Options   **/
+/************************/
+#color-option-teal{
+    background:url('../img/color-option-teal-bg.png')no-repeat;
+}
+
+#styles-tab{
+    float:left;
+    background:url('../img/styles-tab--bg.png')no-repeat;
+    height:50px;
+    width:50px;
+}
+#styles-tab:hover{
+    /**background:url('img/liveTab-hover.png')no-repeat;**/
+    cursor:pointer;
+}
